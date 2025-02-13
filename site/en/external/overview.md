@@ -52,7 +52,7 @@ repository, and sometimes even used as a synonym of "repository".
 
 ### Canonical repository name {:#canonical-repo-name}
 
-The canonical name a repository is addressable by. Within the context of a
+A repository is addressable by a canonical name. Within the context of a
 workspace, each repository has a single canonical name. A target inside a repo
 whose canonical name is `canonical_name` can be addressed by the label
 `@@canonical_name//package:target` (note the double `@`).
